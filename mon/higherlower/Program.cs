@@ -6,19 +6,24 @@ namespace HigherLower {
     {
         public static void CheckNumber(double highNum, double lowNum, double guessNum)
         {
-            Console.WriteLine("OK. So is your number higher or lower than" + highNum + " ? higher/lower/correct");
+            Console.WriteLine("OK. So is your number higher or lower than" + guessNum + " ? higher/lower/correct");
             string numAnswer = Console.ReadLine();
+            
             if (numAnswer == "higher")
             {
-                CheckNumber(Math.Round((guessNum + highNum) / 2));
+                lowNum = guessNum;
+                guessNum = Math.Round((guessNum + highNum) / 2);
+                CheckNumber(highNum, lowNum, guessNum);
             }
             else if (numAnswer == "lower")
             {
-                CheckNumber(Math.Round((guessNum + lowNum) / 2));
+                highNum = guessNum;
+                guessNum = Math.Round((guessNum + lowNum) / 2);
+                CheckNumber(highNum, lowNum, guessNum);
             }
             else if (numAnswer == "correct")
             {
-                Console.WriteLine("I got it! You're so bad at this game!");
+                Console.WriteLine("I got it! You're so stupid!");
             }
             else 
             {
