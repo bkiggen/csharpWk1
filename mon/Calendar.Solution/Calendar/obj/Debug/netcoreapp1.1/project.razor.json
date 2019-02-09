@@ -1,0 +1,14 @@
+{
+  "ProjectFilePath": "c:\\Users\\benki\\desktop\\CSharpProjects\\csharpWk1\\mon\\Calendar.Solution\\Calendar\\Calendar.csproj",
+  "TargetFramework": "netcoreapp1.1",
+  "TagHelpers": [],
+  "Configuration": {
+    "ConfigurationName": "UnsupportedRazor",
+    "LanguageVersion": "1.0",
+    "Extensions": [
+      {
+        "ExtensionName": "UnsupportedRazorExtension"
+      }
+    ]
+  }
+}
