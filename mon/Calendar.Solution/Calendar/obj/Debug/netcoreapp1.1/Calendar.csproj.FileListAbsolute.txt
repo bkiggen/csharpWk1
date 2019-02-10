@@ -1,0 +1,9 @@
+C:\Users\benki\desktop\CSharpProjects\csharpWk1\mon\Calendar.Solution\Calendar\bin\Debug\netcoreapp1.1\Calendar.deps.json
+C:\Users\benki\desktop\CSharpProjects\csharpWk1\mon\Calendar.Solution\Calendar\bin\Debug\netcoreapp1.1\Calendar.dll
+C:\Users\benki\desktop\CSharpProjects\csharpWk1\mon\Calendar.Solution\Calendar\bin\Debug\netcoreapp1.1\Calendar.pdb
+C:\Users\benki\desktop\CSharpProjects\csharpWk1\mon\Calendar.Solution\Calendar\obj\Debug\netcoreapp1.1\Calendar.csprojAssemblyReference.cache
+C:\Users\benki\desktop\CSharpProjects\csharpWk1\mon\Calendar.Solution\Calendar\obj\Debug\netcoreapp1.1\Calendar.csproj.CoreCompileInputs.cache
+C:\Users\benki\desktop\CSharpProjects\csharpWk1\mon\Calendar.Solution\Calendar\obj\Debug\netcoreapp1.1\Calendar.AssemblyInfoInputs.cache
+C:\Users\benki\desktop\CSharpProjects\csharpWk1\mon\Calendar.Solution\Calendar\obj\Debug\netcoreapp1.1\Calendar.AssemblyInfo.cs
+C:\Users\benki\desktop\CSharpProjects\csharpWk1\mon\Calendar.Solution\Calendar\obj\Debug\netcoreapp1.1\Calendar.dll
+C:\Users\benki\desktop\CSharpProjects\csharpWk1\mon\Calendar.Solution\Calendar\obj\Debug\netcoreapp1.1\Calendar.pdb

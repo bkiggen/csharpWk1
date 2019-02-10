@@ -1,0 +1,9 @@
+C:\Users\benki\desktop\CSharpProjects\csharpWk1\mon\pingPong\Ping\obj\Debug\netcoreapp1.1\Ping.csprojAssemblyReference.cache
+C:\Users\benki\desktop\CSharpProjects\csharpWk1\mon\pingPong\Ping\obj\Debug\netcoreapp1.1\Ping.csproj.CoreCompileInputs.cache
+C:\Users\benki\desktop\CSharpProjects\csharpWk1\mon\pingPong\Ping\obj\Debug\netcoreapp1.1\Ping.AssemblyInfoInputs.cache
+C:\Users\benki\desktop\CSharpProjects\csharpWk1\mon\pingPong\Ping\obj\Debug\netcoreapp1.1\Ping.AssemblyInfo.cs
+C:\Users\benki\desktop\CSharpProjects\csharpWk1\mon\pingPong\Ping\bin\Debug\netcoreapp1.1\Ping.deps.json
+C:\Users\benki\desktop\CSharpProjects\csharpWk1\mon\pingPong\Ping\bin\Debug\netcoreapp1.1\Ping.dll
+C:\Users\benki\desktop\CSharpProjects\csharpWk1\mon\pingPong\Ping\bin\Debug\netcoreapp1.1\Ping.pdb
+C:\Users\benki\desktop\CSharpProjects\csharpWk1\mon\pingPong\Ping\obj\Debug\netcoreapp1.1\Ping.dll
+C:\Users\benki\desktop\CSharpProjects\csharpWk1\mon\pingPong\Ping\obj\Debug\netcoreapp1.1\Ping.pdb

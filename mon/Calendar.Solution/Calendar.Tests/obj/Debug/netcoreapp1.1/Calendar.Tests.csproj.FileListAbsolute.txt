@@ -1,0 +1,17 @@
+C:\Users\benki\desktop\CSharpProjects\csharpWk1\mon\Calendar.Solution\Calendar.Tests\obj\Debug\netcoreapp1.1\Calendar.Tests.csprojAssemblyReference.cache
+C:\Users\benki\desktop\CSharpProjects\csharpWk1\mon\Calendar.Solution\Calendar.Tests\obj\Debug\netcoreapp1.1\Calendar.Tests.csproj.CoreCompileInputs.cache
+C:\Users\benki\desktop\CSharpProjects\csharpWk1\mon\Calendar.Solution\Calendar.Tests\obj\Debug\netcoreapp1.1\Calendar.Tests.AssemblyInfoInputs.cache
+C:\Users\benki\desktop\CSharpProjects\csharpWk1\mon\Calendar.Solution\Calendar.Tests\obj\Debug\netcoreapp1.1\Calendar.Tests.AssemblyInfo.cs
+C:\Users\benki\desktop\CSharpProjects\csharpWk1\mon\Calendar.Solution\Calendar.Tests\bin\Debug\netcoreapp1.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\benki\desktop\CSharpProjects\csharpWk1\mon\Calendar.Solution\Calendar.Tests\bin\Debug\netcoreapp1.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\benki\desktop\CSharpProjects\csharpWk1\mon\Calendar.Solution\Calendar.Tests\bin\Debug\netcoreapp1.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\benki\desktop\CSharpProjects\csharpWk1\mon\Calendar.Solution\Calendar.Tests\bin\Debug\netcoreapp1.1\Calendar.Tests.deps.json
+C:\Users\benki\desktop\CSharpProjects\csharpWk1\mon\Calendar.Solution\Calendar.Tests\bin\Debug\netcoreapp1.1\Calendar.Tests.runtimeconfig.json
+C:\Users\benki\desktop\CSharpProjects\csharpWk1\mon\Calendar.Solution\Calendar.Tests\bin\Debug\netcoreapp1.1\Calendar.Tests.runtimeconfig.dev.json
+C:\Users\benki\desktop\CSharpProjects\csharpWk1\mon\Calendar.Solution\Calendar.Tests\bin\Debug\netcoreapp1.1\Calendar.Tests.dll
+C:\Users\benki\desktop\CSharpProjects\csharpWk1\mon\Calendar.Solution\Calendar.Tests\bin\Debug\netcoreapp1.1\Calendar.Tests.pdb
+C:\Users\benki\desktop\CSharpProjects\csharpWk1\mon\Calendar.Solution\Calendar.Tests\bin\Debug\netcoreapp1.1\Calendar.dll
+C:\Users\benki\desktop\CSharpProjects\csharpWk1\mon\Calendar.Solution\Calendar.Tests\bin\Debug\netcoreapp1.1\Calendar.pdb
+C:\Users\benki\desktop\CSharpProjects\csharpWk1\mon\Calendar.Solution\Calendar.Tests\obj\Debug\netcoreapp1.1\Calendar.Tests.csproj.CopyComplete
+C:\Users\benki\desktop\CSharpProjects\csharpWk1\mon\Calendar.Solution\Calendar.Tests\obj\Debug\netcoreapp1.1\Calendar.Tests.dll
+C:\Users\benki\desktop\CSharpProjects\csharpWk1\mon\Calendar.Solution\Calendar.Tests\obj\Debug\netcoreapp1.1\Calendar.Tests.pdb
