@@ -3,32 +3,31 @@ using System.Collections.Generic;
 
 namespace PingPong
 {
-    public class Ping
+    public static class Ping
     {
-        public List<int> TransformNums(int num)
+        public static string[] TransformNums(int inputNum)
         {
-            List<int> newList = new List<int>();
-            for(int i=0; i < num; i++)
+            string[] newArray = new string[inputNum];
+            for(int i=0; i < inputNum; i++)
             {
-                if(i%15)
+                if(i%15 == 0 )
                 {
-                    newList.Add("PingPong!");
+                    newArray[i] = "PingPong!";
                 }
                 else if(i%3 == 0)
                 {
-                    newList.Add("Ping!");
+                    newArray[i] = "Ping!";
                 }
                 else if (i%5 == 0)
                 {
-                    newList.Add("Pong!");
+                    newArray[i] = "Pong!";
                 }
                 else
                 {
-                    newList.Add(i);
+                    newArray[i] = i.ToString();
                 }
             }
-            Console.WriteLine(newList);
-            return newList;
+            return newArray;
         }
     }
 }

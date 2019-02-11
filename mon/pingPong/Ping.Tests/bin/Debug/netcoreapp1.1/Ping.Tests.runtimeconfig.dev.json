@@ -1,8 +1,7 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "C:\\Users\\benki\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\benki\\.nuget\\packages"
+      "/Users/epicodus_staff/.nuget/packages"
     ]
   }
 }

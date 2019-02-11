@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v1.1": {
-      "Ping/1.0.0": {
+      "ping/1.0.0": {
         "runtime": {
           "Ping.dll": {}
         }
@@ -14,7 +14,7 @@
     }
   },
   "libraries": {
-    "Ping/1.0.0": {
+    "ping/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -1,0 +1,14 @@
+{
+  "ProjectFilePath": "/Users/epicodus_staff/Desktop/Ben/csharp/csharpWk1/mon/pingPong/Ping/Ping.csproj",
+  "TargetFramework": "netcoreapp1.1",
+  "TagHelpers": [],
+  "Configuration": {
+    "ConfigurationName": "UnsupportedRazor",
+    "LanguageVersion": "1.0",
+    "Extensions": [
+      {
+        "ExtensionName": "UnsupportedRazorExtension"
+      }
+    ]
+  }
+}
