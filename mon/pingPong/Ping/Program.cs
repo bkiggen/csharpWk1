@@ -11,9 +11,10 @@ namespace PingPong
            Console.WriteLine("Enter a number: ");
            string InputNum = Console.ReadLine();
            int IntNum = int.Parse(InputNum);
-           string[] ResultArray = Ping.TransformNums(IntNum);
+           Ping newPing = new Ping(IntNum);
+           newPing.TransformNums();
 
-           foreach(string item in ResultArray)
+           foreach(string item in newPing.output)
            {
             Console.WriteLine(item);
            }

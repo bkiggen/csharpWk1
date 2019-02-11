@@ -10,8 +10,8 @@ namespace PingPong.TestTools
         [TestMethod]
         public void TransformNums_Number_True()
         {
-            Ping testPing = new Ping();
-            Assert.AreEqual(2, testPing.TransformNums(2));
+            string[] newArray = { "0", "1" };
+            Assert.AreEqual(2, Ping.TransformNums(2));
         }
     }
 }

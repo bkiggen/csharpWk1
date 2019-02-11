@@ -3,9 +3,15 @@ using System.Collections.Generic;
 
 namespace PingPong
 {
-    public static class Ping
+    public class Ping
     {
-        public static string[] TransformNums(int inputNum)
+        public string[] output;
+        private int inputNum;
+        public Ping(int inputNum)
+        {
+            this.inputNum = inputNum;
+        }
+        public void TransformNums()
         {
             string[] newArray = new string[inputNum];
             for(int i=0; i < inputNum; i++)
@@ -27,7 +33,7 @@ namespace PingPong
                     newArray[i] = i.ToString();
                 }
             }
-            return newArray;
+            output = newArray;
         }
     }
 }

@@ -22,3 +22,10 @@ C:/Users/benki/desktop/CSharpProjects/csharpWk1/mon/pingPong/Ping.Tests/obj/Debu
 /Users/epicodus_staff/Desktop/Ben/csharp/csharpWk1/mon/pingPong/Ping.Tests/obj/Debug/netcoreapp1.1/Ping.Tests.AssemblyInfo.cs
 /Users/epicodus_staff/Desktop/Ben/csharp/csharpWk1/mon/pingPong/Ping.Tests/obj/Debug/netcoreapp1.1/Ping.Tests.dll
 /Users/epicodus_staff/Desktop/Ben/csharp/csharpWk1/mon/pingPong/Ping.Tests/obj/Debug/netcoreapp1.1/Ping.Tests.pdb
+/Users/epicodus_staff/Desktop/Ben/csharp/csharpWk1/mon/pingPong/Ping.Tests/bin/Debug/netcoreapp1.1/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+/Users/epicodus_staff/Desktop/Ben/csharp/csharpWk1/mon/pingPong/Ping.Tests/bin/Debug/netcoreapp1.1/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+/Users/epicodus_staff/Desktop/Ben/csharp/csharpWk1/mon/pingPong/Ping.Tests/bin/Debug/netcoreapp1.1/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+/Users/epicodus_staff/Desktop/Ben/csharp/csharpWk1/mon/pingPong/Ping.Tests/bin/Debug/netcoreapp1.1/Ping.Tests.dll
+/Users/epicodus_staff/Desktop/Ben/csharp/csharpWk1/mon/pingPong/Ping.Tests/bin/Debug/netcoreapp1.1/Ping.Tests.pdb
+/Users/epicodus_staff/Desktop/Ben/csharp/csharpWk1/mon/pingPong/Ping.Tests/bin/Debug/netcoreapp1.1/Ping.dll
+/Users/epicodus_staff/Desktop/Ben/csharp/csharpWk1/mon/pingPong/Ping.Tests/bin/Debug/netcoreapp1.1/Ping.pdb
