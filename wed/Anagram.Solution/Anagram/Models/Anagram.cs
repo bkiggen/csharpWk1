@@ -34,11 +34,23 @@ namespace Anagram.Models
                 Array.Sort(newWordArray);
                 string newWordString = string.Join("", newWordArray.ToArray());
                 Console.WriteLine(newWordString);
-                // string newWord = String.Concat(word.OrderBy(c => c));
                 newList.Add(newWordString);
             }
             _sortedWordList = newList;
             return _sortedWordList;
+        }
+
+        public List<string> GetAnagrams()
+        {
+            List<string> newList = new List<string>();
+            string targetWord = _sortedWordList[0];
+            foreach (string word in _sortedWordList)
+            {
+                if(word == targetWord){
+                    newList.Add(word);
+                }
+            }
+            return newList;
         }
 
     }
