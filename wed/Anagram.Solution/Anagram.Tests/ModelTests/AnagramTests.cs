@@ -17,14 +17,23 @@ namespace Anagram.Tests
         }
 
         [TestMethod]
-        public void AnagramChecker_ReturnListOfWords_List()
+        public void GetWordList_ReturnListOfWords_List()
         {
             Word newWord = new Word("dog", "hog", "god");
             List<string> testArray = new List<string> {"dog", "hog", "god"};
             List<string> result = newWord.GetWordList();
             CollectionAssert.AreEqual(testArray, result);
-            foreach (string word in result){
-                Console.WriteLine(word);
+        }
+        [TestMethod]
+        public void GetSortedWordList_ReturnListOfWords_List()
+        {
+            Word newWord = new Word("dog", "hog", "god");
+            List<string> testArray = new List<string> {"dgo", "gho", "dgo"};
+            List<string> result = newWord.GetSortedWordList();
+            CollectionAssert.AreEqual(testArray, result);
+            foreach (string word in result)
+            {
+                Console.WriteLine("word");
             }
         }
 

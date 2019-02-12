@@ -1,4 +1,6 @@
+using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace Anagram.Models
 {
@@ -8,6 +10,7 @@ namespace Anagram.Models
         private string _secondWord;
         private string _thirdWord;
         private List<string> _wordList = new List<string>();
+        private List<string> _sortedWordList = new List<string>();
         public Word (string mainWord, string secondWord, string thirdWord)
         {
             _mainWord = mainWord;
@@ -21,6 +24,21 @@ namespace Anagram.Models
         public List<string> GetWordList()
         {
             return _wordList;
+        }
+        public List<string> GetSortedWordList()
+        {
+            List<string> newList = new List<string>();
+            foreach (string word in _wordList)
+            {
+                char[] newWordArray = word.ToCharArray();
+                Array.Sort(newWordArray);
+                string newWordString = string.Join("", newWordArray.ToArray());
+                Console.WriteLine(newWordString);
+                // string newWord = String.Concat(word.OrderBy(c => c));
+                newList.Add(newWordString);
+            }
+            _sortedWordList = newList;
+            return _sortedWordList;
         }
 
     }
