@@ -6,18 +6,27 @@ using System.Collections.Generic;
 namespace Anagram.Tests
 {
     [TestClass]
-    public class AnagramTest : IDisposable
+    public class WordTest
     {
-        public void Dispose()
+
+        [TestMethod]
+        public void WordConstructor_CreatesInstanceOfWord_Word()
         {
-            Anagram.ClearAll();
+            Word newWord = new Word("dog", "goal", "god");
+            Assert.AreEqual(typeof(Word), newWord.GetType());
         }
 
         [TestMethod]
-        public void AnagramConstructor_CreatesInstanceOfAnagram_Anagram()
+        public void AnagramChecker_ReturnListOfWords_List()
         {
-            Anagram newAnagram = new Anagram("dog", "goal", "god");
-            Assert.AreEqual(typeof(Anagram), newAnagram.GetType());
+            Word newWord = new Word("dog", "hog", "god");
+            List<string> testArray = new List<string> {"dog", "hog", "god"};
+            List<string> result = newWord.GetWordList();
+            CollectionAssert.AreEqual(testArray, result);
+            foreach (string word in result){
+                Console.WriteLine(word);
+            }
         }
+
     }
 }
