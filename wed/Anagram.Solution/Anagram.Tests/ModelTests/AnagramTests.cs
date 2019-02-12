@@ -36,8 +36,9 @@ namespace Anagram.Tests
         public void GetAnagrams_ReturnAnagramList_List()
         {
             Word newWord = new Word("dog", "hog", "god");
+            newWord.GetSortedWordList();
             List<string> result = newWord.GetAnagrams();
-            List<string> testArray = new List<string> { "dgo", "dgo" };
+            List<string> testArray = new List<string> { "dog", "god" };
             CollectionAssert.AreEqual(testArray, result);
         }
 

@@ -7,6 +7,7 @@ namespace Anagram.Models
     public class Word
     {
         private string _mainWord;
+        private string _mainWordAlpha;
         private string _secondWord;
         private string _thirdWord;
         private List<string> _wordList = new List<string>();
@@ -19,7 +20,10 @@ namespace Anagram.Models
             _wordList.Insert(0, _mainWord);
             _wordList.Insert(1, _secondWord);
             _wordList.Insert(2, _thirdWord);
-
+            char[] newMainWord = _mainWord.ToCharArray();
+            Array.Sort(newMainWord);
+            string newWordString = string.Join("", newMainWord.ToArray());
+            _mainWordAlpha = newWordString;
         }
         public List<string> GetWordList()
         {
@@ -33,7 +37,6 @@ namespace Anagram.Models
                 char[] newWordArray = word.ToCharArray();
                 Array.Sort(newWordArray);
                 string newWordString = string.Join("", newWordArray.ToArray());
-                Console.WriteLine(newWordString);
                 newList.Add(newWordString);
             }
             _sortedWordList = newList;
@@ -43,11 +46,10 @@ namespace Anagram.Models
         public List<string> GetAnagrams()
         {
             List<string> newList = new List<string>();
-            string targetWord = _sortedWordList[0];
-            foreach (string word in _sortedWordList)
+            for (int i = 0; i < _sortedWordList.Count; i++)
             {
-                if(word == targetWord){
-                    newList.Add(word);
+                if(_sortedWordList[i] == _mainWordAlpha){
+                    newList.Add(_wordList[i]);
                 }
             }
             return newList;
