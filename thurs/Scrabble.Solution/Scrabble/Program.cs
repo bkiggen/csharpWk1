@@ -13,6 +13,13 @@ namespace Scrabble
             Word newWord = new Word(wordInput);
             string result = newWord.WordScorer();
             Console.WriteLine(result);
+            Console.WriteLine("Would you like to enter another word? (yes/no)");
+            string quitOrNot = Console.ReadLine();
+            if(quitOrNot.Equals("yes"))
+            {
+                Main();
+            }
+     
         }
     }
 }
