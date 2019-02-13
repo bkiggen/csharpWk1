@@ -6,12 +6,8 @@ using System.Collections.Generic;
 namespace ToDoList.Tests
 {
     [TestClass]
-    public class ItemTest : IDisposable
+    public class ItemTest
     {
-        public void Dispose()
-        {
-            Item.ClearAll();
-        }
 
         [TestMethod]
         public void ItemConstructor_CreatesInstanceOfItem_Item()

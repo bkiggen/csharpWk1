@@ -1,0 +1,7 @@
+/Users/epicodus_staff/Desktop/Ben/csharp/csharpWk1/thurs/Scrabble.Solution/Scrabble/bin/Debug/netcoreapp1.1/Scrabble.deps.json
+/Users/epicodus_staff/Desktop/Ben/csharp/csharpWk1/thurs/Scrabble.Solution/Scrabble/bin/Debug/netcoreapp1.1/Scrabble.dll
+/Users/epicodus_staff/Desktop/Ben/csharp/csharpWk1/thurs/Scrabble.Solution/Scrabble/bin/Debug/netcoreapp1.1/Scrabble.pdb
+/Users/epicodus_staff/Desktop/Ben/csharp/csharpWk1/thurs/Scrabble.Solution/Scrabble/obj/Debug/netcoreapp1.1/Scrabble.csproj.CoreCompileInputs.cache
+/Users/epicodus_staff/Desktop/Ben/csharp/csharpWk1/thurs/Scrabble.Solution/Scrabble/obj/Debug/netcoreapp1.1/Scrabble.AssemblyInfo.cs
+/Users/epicodus_staff/Desktop/Ben/csharp/csharpWk1/thurs/Scrabble.Solution/Scrabble/obj/Debug/netcoreapp1.1/Scrabble.dll
+/Users/epicodus_staff/Desktop/Ben/csharp/csharpWk1/thurs/Scrabble.Solution/Scrabble/obj/Debug/netcoreapp1.1/Scrabble.pdb
