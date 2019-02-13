@@ -1,0 +1,7 @@
+/Users/epicodus_staff/Desktop/Ben/csharp/csharpWk1/wed/Shapes.Solution/Shapes/bin/Debug/netcoreapp1.1/Shapes.deps.json
+/Users/epicodus_staff/Desktop/Ben/csharp/csharpWk1/wed/Shapes.Solution/Shapes/obj/Debug/netcoreapp1.1/Shapes.csproj.CoreCompileInputs.cache
+/Users/epicodus_staff/Desktop/Ben/csharp/csharpWk1/wed/Shapes.Solution/Shapes/obj/Debug/netcoreapp1.1/Shapes.AssemblyInfo.cs
+/Users/epicodus_staff/Desktop/Ben/csharp/csharpWk1/wed/Shapes.Solution/Shapes/bin/Debug/netcoreapp1.1/Shapes.dll
+/Users/epicodus_staff/Desktop/Ben/csharp/csharpWk1/wed/Shapes.Solution/Shapes/bin/Debug/netcoreapp1.1/Shapes.pdb
+/Users/epicodus_staff/Desktop/Ben/csharp/csharpWk1/wed/Shapes.Solution/Shapes/obj/Debug/netcoreapp1.1/Shapes.dll
+/Users/epicodus_staff/Desktop/Ben/csharp/csharpWk1/wed/Shapes.Solution/Shapes/obj/Debug/netcoreapp1.1/Shapes.pdb
