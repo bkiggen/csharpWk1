@@ -6,7 +6,7 @@ using System.Collections.Generic;
 namespace WordCounter.TestTools
 {
     [TestClass]
-    public class WordBundle
+    public class WordBundleTest
     {
         [TestMethod]
         public void WordBundleConstructor_CreatesInstanceOfWordBundle_WordBundle()
