@@ -4,7 +4,7 @@ using WordCounter.Models;
 
 namespace WordCounter
 {
-    public class WordBundle
+    public class Program
     {
         public static void Main()
         {
@@ -13,11 +13,9 @@ namespace WordCounter
             string wordInput = Console.ReadLine();
             Console.WriteLine("Now type a sentence.");
             string sentenceInput = Console.ReadLine();
-            // Word newWord = new Word(wordInput);
-            // string result = newWord.WordScorer();
-            // Console.WriteLine(result);
-            Console.WriteLine("This is where the result will go.");
-
+            WordBundle newWordBundle = new WordBundle(wordInput, sentenceInput);
+            int count = newWordBundle.CountWordsInSentence();
+            Console.WriteLine("Cool, so it looks like '" + wordInput + "' shows up in '" + sentenceInput + "' " + count + " times.");
             Console.WriteLine("Would you like to play again? (yes/no)");
             string quitOrNot = Console.ReadLine();
             if (quitOrNot.Equals("yes"))
