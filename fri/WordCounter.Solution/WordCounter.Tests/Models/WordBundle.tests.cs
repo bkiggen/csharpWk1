@@ -25,23 +25,5 @@ namespace WordCounter.Tests
             int result = newWordBundle.CountWordsInSentence();
             Assert.AreEqual(result, 1);
         }
-        [TestMethod]
-        public void GetSentence_ReturnSentence_String()
-        {
-            string testWord = "cat";
-            string testSentence = "Who let the cat out of the cathedral?";
-            WordBundle newWordBundle = new WordBundle(testWord, testSentence);
-            string result = newWordBundle.GetSentence();
-            Assert.AreEqual(result, "Who let the cat out of the cathedral?");
-        }
-        [TestMethod]
-        public void GetWord_ReturnWord_String()
-        {
-            string testWord = "cat";
-            string testSentence = "Who let the cat out of the cathedral?";
-            WordBundle newWordBundle = new WordBundle(testWord, testSentence);
-            string result = newWordBundle.GetWord();
-            Assert.AreEqual(result, "cat");
-        }
     }
 }
